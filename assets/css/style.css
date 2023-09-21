@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    background-color: rgb(37, 37, 37);
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans';
+    color: #fff;
+}
+
+button {
+    width: 65px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.6em;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: #494747;
+    cursor: pointer;
+}
